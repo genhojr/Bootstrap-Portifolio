@@ -3,6 +3,10 @@
     font-family: 'Nanum Pen Script', cursive;
     
 }
+html {
+    position: relative;
+    min-height: 100%;
+}
 
 body {
     background: url('../images/OLO2ED0.jpg');
@@ -10,6 +14,7 @@ body {
     line-height: 34px;
     font-family: 'Nanum Pen Script', cursive;
     color: #777;
+    margin: 0 0 100px;
         
 }
 
@@ -154,6 +159,11 @@ footer {
     line-height: 55px;
     font-size: 16px;
     text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
    
 }
 
